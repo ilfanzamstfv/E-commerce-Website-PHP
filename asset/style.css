@@ -1,0 +1,96 @@
+.banner{
+    /* height: 700px;
+    width: 1513px; */
+    height: 80vh;
+    background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('../image/banner.jpg');
+}
+
+.color-footer {
+    background-color: #FFB1B1;
+}
+
+.banner h1 {
+    animation: fade-in 2s ease-in-out;
+  }
+  
+@keyframes fade-in {
+    0% {
+      opacity: 0;
+      transform: translateY(-20px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+}
+
+.bg2{
+    background-color: #F9F9E0;
+}
+
+.colorbtn{
+    background-color: #F075AA;
+}
+
+.colorbtn:hover{
+    background-color: #BC5A94;
+}
+
+.tampilan-kategori{
+    height: 300px;
+}
+
+.kategori-baju-pria{
+    background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('../image/pria1.jpg');
+    background-size: cover;
+    background-position: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.kategori-sepatu{
+    background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('../image/tampilsepatu.jpg');
+    background-size: cover;
+    background-position: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.kategori-baju-wanita{
+    background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('../image/wanita1.jpg');
+    background-size: cover;
+    background-position: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.no-decoration{
+    text-decoration: none;
+    color: white;
+}
+
+.no-decoration:hover{
+    color: #76ABAE;
+}
+
+.footertitle {
+    font-weight: bold;
+}
+
+.text-harga {
+    font-size: 20px;
+}
+
+.image-box{
+    height: 300px;
+}
+
+.image-box img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.banner-produk{
+    height: 40vh;
+    background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('../image/banner.jpg');
+    background-position: 0% 10% ;
+}
